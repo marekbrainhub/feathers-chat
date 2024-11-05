@@ -1,0 +1,18 @@
+* feathers-chat
+
+** Running
+
+#+begin_src shell
+# server
+pnpm i
+pnpm run migrate
+pnpm run dev
+
+# client
+cd client
+pnpm i
+pnpm run dev
+#+end_src
+
+Go to http://localhost:5173.
+
